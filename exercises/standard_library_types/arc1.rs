@@ -4,7 +4,8 @@
 // somewhere. Try not to create any copies of the `numbers` Vec!
 // Scroll down for hints :)
 
-use std::sync::Arc;
+/*
+use std::sync::{Arc, Mutex};
 use std::thread;
 
 fn main() {
@@ -29,7 +30,11 @@ fn main() {
     }
 }
 
+*/
 
+fn main() {
+    
+}
 
 
 

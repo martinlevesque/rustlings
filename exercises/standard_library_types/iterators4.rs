@@ -10,6 +10,11 @@ pub fn factorial(num: u64) -> u64 {
     // For the most fun don't use:
     // - recursion
     // Scroll down for hints.
+    if num == 0 {
+        1
+    } else {
+        num * factorial(num - 1)
+    }
 }
 
 #[cfg(test)]
