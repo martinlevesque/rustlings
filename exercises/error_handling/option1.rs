@@ -10,8 +10,13 @@ fn main() {
     let last = list.pop().unwrap();
     println!("The last item in the list is {:?}", last);
 
-    let second_to_last = list.pop().unwrap();
-    println!("The second-to-last item in the list is {:?}", second_to_last);
+    //let second_to_last = list.pop().unwrap();
+    //println!("The second-to-last item in the list is {:?}", second_to_last);
+
+    match list.pop() {
+        Some(what) => println!("The second-to-last item in the list is {:?}", what),
+        None => println!("nono")
+    }
 }
 
 
